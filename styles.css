@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(21, 102, 21);
+    color: white;
+    font-family: Tahoma;
+}
+
+a {
+    color: powderblue;
+}
+
+table {
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 47, 255);
+    text-align: center;
+}
+h1 {
+    font-family: 'Verdana';
+    text-align: center
+}
+h3 {
+    font-family: 'Times New Roman';
+    color: yellowgreen;
+}
+
+.Importante {
+    color: orangered;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = “UTF-8>           
+        <title> Mi página personal </title>
+        <link rel = "stylesheet" type="text/css" href="styles.css">
+        <script>
+            function confirmMail() {
+                var mail = document.getElementById("mail").value;
+                document.getElementById("confirmarMail").innerHTML = "Se le enviará más información del contacto a " + mail + ".";
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1> Mi página personal </h1>
+        <h2 style = 'font-family: Arial'> Gonzalo Massardo Del Campo</h2>
+
+        <h3> Presentación Personal: </h3>
+
+        <p> Buenas tardes, soy Gonzalo Massardo, estudiante pregrado de 
+            <b class = "Importante">Ingeniería Civil en Obras Civiles.</b> </p>
+        <p>  Tengo 21 años, e ingresé a la carrera el año <b class = "Importante">2021</b> (seguíamos en pandemia).</p>
+        <p> Vivo en Lo Barnechea, soy parte de una familia de 4 hermanos. Soy fanatico de la
+            <b class = "Importante"> palta</b> y me gusta mucho ir a la playa.</p>
+        <p> Actualmente estoy en la concentración de Desarrollo de Páginas Web, y cursando el ramo de 
+            <b class = "Importante"> Web Technologies.</b></p>
+
+        <h3> Link de Github: </h3>
+        <a href = "https://github.com/gmassardo/gmassardo.github.io.git"> gmassardo.github.io</a>
+    
+        <h3> Tabla de Habilidades: </h3>
+        <p> A continuación, se presenta una tabla con mis habilidades en distinto software de programación.</p>
+
+        <table> 
+            <tr> 
+                <td> <b>Habilidades</b></td>
+                <td> <b>Nivel </b></td>
+            </tr>
+            <tr>
+                <td> Python</td>
+                <td> Experto</td>
+            </tr>
+            <tr>
+                <td> JavaScript</td>
+                <td> Basico</td>
+            </tr>
+            <tr>
+                <td> HTML/CSS</td>
+                <td> Basico</td>
+            </tr>
+            <tr>
+                <td> Git</td>
+                <td> Intermedio</td>
+            </tr>
+            <tr>
+                <td> Excel</td>
+                <td> Avanzado</td>
+            </tr>
+            <tr>
+                <td> SQL</td>
+                <td> Intermedio</td>
+            </tr>
+            <tr>
+                <td> Ruby</td>
+                <td> Desconocido</td>
+            </tr>
+            <tr>
+                <td> Ingles</td>
+                <td> Avanzado</td>
+            </tr>
+            <tr>
+                <td> Español</td>
+                <td> Nativo</td>
+            </tr>
+        </table>
+        <br>
+
+        <h3> Información de Contacto: </h3>
+        <label for = "mail"> Para mas información, ingrese su mail: </label>
+        <input type = "text" id="mail" placeholder="ejemplo@miuandes.cl">
+        <button onclick="confirmMail()"> Enviar</button>
+        <p id = "confirmarMail"></p>
+
+        <h1> MUCHAS GRACIAS, ADIOS </h1>
+
+        
+
+
+    </body>
+</html>

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(21, 102, 21);
+    background-color: rgb(44, 118, 44);
     color: white;
     font-family: Tahoma;
 }
@@ -8,20 +8,51 @@ a {
     color: powderblue;
 }
 
-table {
-    background-color: rgb(252, 252, 252);
-    color: rgb(0, 47, 255);
-    text-align: center;
-}
+
 h1 {
     font-family: 'Verdana';
-    text-align: center
+    text-align: center;
+    color: rgb(99, 40, 17);
 }
 h3 {
     font-family: 'Times New Roman';
     color: yellowgreen;
+    background-color: rgb(99, 40, 17); 
+    text-align: center;
 }
 
 .Importante {
-    color: orangered;
+    color: rgb(219, 127, 21);
 }
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr, td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.link {
+    margin-bottom: 10px;
+}
+
+#columnas {
+    text-align: justify;
+}
+
+.carousel-item img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.link {
+    margin-bottom: 10px;
+}
+
